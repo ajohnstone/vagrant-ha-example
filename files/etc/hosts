@@ -1,0 +1,18 @@
+127.0.0.1	localhost
+127.0.1.1	vagrant-debian-squeeze-64-rvm.vagrantup.com	vagrant-debian-squeeze-64-rvm
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+10.20.10.2 web1
+10.20.10.3 web2
+10.20.10.4 failsafe
+10.20.10.5 file1
+10.20.10.6 file2
+
+10.20.10.8 clean
+

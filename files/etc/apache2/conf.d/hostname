@@ -1,0 +1,5 @@
+<IfModule mod_headers.c>
+	PassEnv HOSTNAME
+	Header add X-Server-Name "%{HOSTNAME}e"
+</IfModule>
+
